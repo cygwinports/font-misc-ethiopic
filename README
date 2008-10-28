@@ -1,6 +1,6 @@
-xorg-font-misc-ethiopian
+font-misc-ethiopian
 ------------------------------------------
-Xorg Ethiopian fonts
+X.Org Ethiopian fonts
 
 Build requirements:
   cygwin-1.5.20-1
@@ -16,30 +16,29 @@ Canonical website:
   http://xorg.freedesktop.org/
 
 Canonical download:
-  http://xorg.freedesktop.org/releases/individual/
+  http://xorg.freedesktop.org/releases/individual/font/
 
 -------------------------------------------
 
 Build instructions:
-  unpack xorg-font-misc-ethiopian-1.0.0-X-src.tar.bz2
+  unpack font-misc-ethiopian-1.0.0-X-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./xorg-font-misc-ethiopian-1.0.0-X.cygport all
+  cygport ./font-misc-ethiopian-1.0.0-X.cygport all
 
 This will create:
-  /usr/src/xorg-font-misc-ethiopian-1.0.0-X-src.tar.bz2
-  /usr/src/xorg-font-misc-ethiopian-1.0.0-X.tar.bz2
+  /usr/src/font-misc-ethiopian-1.0.0-X-src.tar.bz2
+  /usr/src/font-misc-ethiopian-1.0.0-X.tar.bz2
 
 -------------------------------------------
 
 Files included in the binary package:
 
-  /etc/postinstall/xorg-font-misc-ethiopic.sh
-  /usr/share/doc/Cygwin/xorg-font-misc-ethiopic-1.0.0.README
-  /usr/share/doc/xorg-font-misc-ethiopic-1.0.0/COPYING
-  /usr/share/doc/xorg-font-misc-ethiopic-1.0.0/ChangeLog
-  /usr/share/doc/xorg-font-misc-ethiopic-1.0.0/LICENSE.txt
+  /etc/postinstall/font-misc-ethiopic.sh
+  /usr/share/doc/font-misc-ethiopic-1.0.0/COPYING
+  /usr/share/doc/font-misc-ethiopic-1.0.0/ChangeLog
+  /usr/share/doc/font-misc-ethiopic-1.0.0/LICENSE.txt
   /usr/share/fonts/OTF/GohaTibebZemen.otf
   /usr/share/fonts/TTF/GohaTibebZemen.ttf
 
@@ -48,7 +47,7 @@ Files included in the binary package:
 Port Notes:
 
 ----- version 1.0.0-1 -----
-Initial Cygwin release of modular X11R7.0.
+Initial Cygwin release of modular X11.
 
 
 Cygwin port maintained by:
