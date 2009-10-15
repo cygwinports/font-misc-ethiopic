@@ -1,3 +1,0 @@
-inherit xorg
-
-CYGCONF_ARGS="--with-ttf-fontdir=/usr/share/fonts/TTF --with-otf-fontdir=/usr/share/fonts/OTF"
